@@ -60,9 +60,21 @@ body {
 
 @media only screen and (max-width:500px){
     .login-body #title-text h4{
-        font-size: 18px !important;
+        font-size: 15px !important;
         font-weight: bold !important;
 
+    }
+
+
+    .login-container {
+        width: 95% !important;
+        /* height: 100vh; */
+        margin: auto;
+        border: solid 1px lightgray !important;
+         padding:0 !important; 
+         height:auto !important
+    
+       
     }
     
 }
