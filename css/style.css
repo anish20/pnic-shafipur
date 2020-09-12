@@ -2257,6 +2257,9 @@ small {
   #small-action{
     margin-top: 5px !important;
 }
+h1 span.logo-text{
+  font-size:20px !important;
+}
 }
 
 @media only screen and (min-width: 420px) {
@@ -2265,6 +2268,9 @@ small {
   }
   #small-action{
     margin-top: 5px !important;
+}
+h1 span.logo-text{
+  font-size:20px !important;
 }
 }
 
@@ -2275,6 +2281,10 @@ small {
   #small-action{
     margin-top: 5px !important;
 }
+h1 span.logo-text{
+  font-size:20px !important;
+}
+
 }
 
 @media only screen and (min-width: 480px) {
@@ -2283,6 +2293,10 @@ small {
   }
   #small-action{
     margin-top: 5px !important;
+}
+
+h1 span.logo-text{
+  font-size:20px !important;
 }
 }
 
@@ -2293,6 +2307,10 @@ small {
   #small-action{
     margin-top: 5px !important;
 }
+
+h1 span.logo-text{
+  font-size:20px !important;
+}
 }
 
 @media only screen and (min-width: 540px) {
@@ -2301,6 +2319,9 @@ small {
   }
   #small-action{
     margin-top: 5px !important;
+}
+h1 span.logo-text{
+  font-size:20px !important;
 }
 }
 
@@ -2311,6 +2332,9 @@ small {
   #small-action{
     margin-top: 5px !important;
 }
+h1 span.logo-text{
+  font-size:20px !important;
+}
 }
 
 @media only screen and (min-width: 600px) {
@@ -2319,6 +2343,9 @@ small {
   }
   #small-action{
     margin-top: 5px !important;
+}
+h1 span.logo-text{
+  font-size:20px !important;
 }
 }
 
@@ -2329,6 +2356,9 @@ small {
   #small-action{
     margin-top: 5px !important;
 }
+h1 span.logo-text{
+  font-size:20px !important;
+}
 }
 
 @media only screen and (min-width: 660px) {
@@ -2338,6 +2368,9 @@ small {
   #small-action{
     margin-top: 5px !important;
 }
+h1 span.logo-text{
+  font-size:20px !important;
+}
 }
 
 @media only screen and (min-width: 690px) {
@@ -2346,6 +2379,9 @@ small {
   }
   #small-action{
     margin-top: 5px !important;
+}
+h1 span.logo-text{
+  font-size:20px !important;
 }
 }
 
@@ -6279,7 +6315,7 @@ h1.logo-wrapper {
 }
 
 h1 span.logo-text {
-  font-size: 26px;
+  font-size: 20px;
   padding-left: 8px;
   visibility: visible;
   opacity: 1;
@@ -7520,4 +7556,10 @@ tr.group:hover {
 
 .actions a:hover{
   color: green ;
+}
+
+@media(max-width:600px){
+  .actions a{
+    font-size:12px !important;
+  }
 }
